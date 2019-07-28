@@ -9,7 +9,7 @@ val words = arrayOf("give","me","love")
 val logprob = lm.getBOlprob(words)
 ```
 
-##Usage
+## Usage
 
 ### Constructor
 ```kotlin
@@ -22,7 +22,7 @@ getBOlprob(words: Array<String>):Double
 getBOlprob(ids: Array<Int>): Double
 ```
 
-### Vocabulary (id to strint)
+### Vocabulary (id to string)
 ```kotlin
 vocab: Array<String>
 ```
